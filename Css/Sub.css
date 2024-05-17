@@ -1,0 +1,328 @@
+/* a1 */
+.a1 {
+  background-color: #2D2D2C;
+  text-align: center;
+}
+.containera1 {
+  margin: 20px auto;
+  padding-top: 20px;
+  width: 90%;
+  background: #e8dfd8;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+/* Header Styles */
+.headerab h1 {
+  font-size: 36px;
+  color: #845c39;
+  margin-bottom: 20px;
+}
+
+/* Container Styles */
+.containerab {
+  line-height: 1.6;
+}
+
+.containerab p {
+  font-size: 16px;
+  color: #845c39;
+  margin-bottom: 20px;
+}
+
+/* Image Container Styles */
+.image-containerab {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-containerab img {
+  max-width: 10%;
+  height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .containerab p, .headerab h1 {
+      font-size: 20px;
+  }
+}
+
+/* a1 */
+
+/* a2 */
+.a2 {
+    height: 50vh;
+    background-color: #2D2D2C;
+    color: #845c39;
+    align-items: center;
+  }
+    .main-container {
+      background: #e8dfd8;
+      border-radius: 15px;
+      margin: 1rem;
+      padding: 20px;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+      width: 50%;
+  }
+  
+  h2 {
+      text-align: center;
+  }
+  
+  hr {
+      width: 10rem;
+      margin: 10px auto;
+  }
+  
+  .members {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .team-member {
+      margin: 8px;
+      transition: all .3s ease;
+      cursor: pointer;
+  }
+  
+  .team-member:hover {
+      transform: scale(1.1);
+  }
+  
+  .members img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 10px;
+  }
+  
+  .members h4,
+  p {
+      text-align: center;
+      font-size: 12px;
+      margin: 7px;
+  }
+/* a2 */
+/* m1 */
+
+.m1 {
+    background-color: #1e1e1e;
+    height: 100vh;
+    margin-top: 0;
+    padding: 0;
+}
+
+.containerm {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    color: #845c39;
+
+
+}
+
+.containerm h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #e8dfd8;
+  }
+
+.containerm h2 {
+    margin-bottom: 20px;
+    color: #e8dfd8;
+
+}
+
+.museums {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.museum {
+    background: #e8dfd8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+  }
+
+.museum-img {
+    height: 150px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#museum1 { background-image: url('https://www.willflyforfood.net/uploads/food-travel3/manila/nationalmuseum/47.jpg'); }
+#museum2 { background-image: url('https://i.pinimg.com/originals/8f/8e/4a/8f8e4ab4aedf229d0f3466975b2ec19c.jpg'); }
+#museum3 { background-image: url('https://diak46rl5chc7.cloudfront.net/orgs/95562/contents/b4qo3yaypiiukrvr/w920_b4qo3yaypiiukrvr.jpeg'); }
+#museum4 { background-image: url('https://i.redd.it/gfscsr2wt9t01.jpg'); }
+#museum5 { background-image: url('https://archiandesigns.files.wordpress.com/2013/02/spanish-houses-bahay-na-bato-with-wood-top-and-capiz-windows.jpg');}
+
+.explore-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.explore-btn:hover {
+    background: #0056b3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background: #e8dfd8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: -4px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+}
+
+/* m1 */
+/* m2 */
+.m2 {
+    background-color: #fff;
+    height: 100vh;
+    margin-top: 0;
+    padding: 0;
+}
+/* m2 */
+/* c1 */
+.c1 {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8dfd8;
+    position: relative;
+  }
+  
+  .tour-guide-experience {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .item-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .item-container img {
+    width: 150px; /* Adjust size as needed */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem #000);
+  }
+  
+  .item-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #845c39;
+  }
+  
+  .item-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .description {
+    display: none; /* Hidden by default */
+  }
+  
+  .description-modal {
+    display: none;
+    position: absolute;
+    z-index: 15;
+    left: 0;
+    top: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  .description-modal img {
+    max-width: 50%;
+    height: 60%;
+    /* width: 125px;
+    height: auto; */
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+  } 
+  
+  .description-modal .modal-description {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+  .description-modal .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .description-modal .close:hover,
+  .description-modal .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+/* c1 */
+/* c2 */
+.c2 {
+    height: 100vh;
+    background: #1e1e1e;
+    padding: 40px 0;
+}
+
+
+/* c2 */

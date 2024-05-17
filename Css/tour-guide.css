@@ -1,0 +1,132 @@
+.tour-guide-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  z-index: 2;
+}
+
+.tour-guide img {
+  position: absolute;
+  bottom: 10%;
+  width: 150px;
+  height: auto;
+  filter: brightness(70%);
+  z-index: 1;
+  filter: drop-shadow(0 0 0.75rem #000);
+}
+
+.speech-text {
+  background-color: rgba(26, 26, 26, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.speech-text p {
+  color: #e3d9d1;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.speech-text button {
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 50%;
+  color: #1A1A1A;
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.speech-text button:hover {
+  background-color: #1A1A1A;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* tour-guide in section 3 */
+.tour-guide-container-3 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  z-index: 2;
+}
+
+.tour-guide-3 img {
+  position: relative;
+  bottom: 10%;
+  width: 150px;
+  height: auto;
+  filter: brightness(70%);
+  z-index: 1;
+  filter: drop-shadow(0 0 0.75rem #000);
+}
+
+.speech-text-3 {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  background-color: rgba(26, 26, 26, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.speech-text-3 p {
+  color: #e3d9d1;
+  font-size: 1rem;
+  margin: 0;
+}
+.speech-text-3 h3 {
+  color: #e3d9d1;
+  font-size: 1rem;
+}
+/* tour-guide in section 3 */
+
+/* tour guide in c2 */
+.tour-guide-container-c2 {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  height: 100vh;
+}
+
+.tour-guide-c2 img {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  width: 150px;
+  height: auto;
+  filter: brightness(70%);
+  z-index: 1;
+  filter: drop-shadow(0 0 0.75rem #000);
+}
+
+.speech-text-c2 {
+  position: absolute;
+  bottom: 40%;
+  left: 34%;
+  background-color: #e3d9d1b2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  z-index: 2;
+}
+
+.speech-text-c2 h1 {
+  color: #845c39;
+  font-size: 1rem;
+}
+/* tour guide in c2 */
